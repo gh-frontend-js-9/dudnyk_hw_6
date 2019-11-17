@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Homework 6</title>
+</head>
+<body>
+    <div class="box calculator">
+
+        <div class="box calculator-display"><button class="box btn" onclick="reset()">С</button><p id="calculator_text"></p></div>
+
+        <button class="box btn btn-style" value="7" onclick="calculate(this.value)">7</button>
+        <button class="box btn btn-style" value="8" onclick="calculate(this.value)">8</button>
+        <button class="box btn btn-style" value="9" onclick="calculate(this.value)">9</button>
+        <button class="box btn btn-style" value="/" onclick="calculate(this.value)">/</button>
+
+        <button class="box btn btn-style" value="4" onclick="calculate(this.value)">4</button>
+        <button class="box btn btn-style" value="5" onclick="calculate(this.value)">5</button>
+        <button class="box btn btn-style" value="6" onclick="calculate(this.value)">6</button>
+        <button class="box btn btn-style" value="*" onclick="calculate(this.value)">*</button>
+
+        <button class="box btn btn-style" value="1" onclick="calculate(this.value)">1</button>
+        <button class="box btn btn-style" value="2" onclick="calculate(this.value)">2</button>
+        <button class="box btn btn-style" value="3" onclick="calculate(this.value)">3</button>
+        <button class="box btn btn-style" value="-" onclick="calculate(this.value)">-</button>
+
+
+        <button class="box btn btn-style" value="0" onclick="calculate(this.value)">0</button>
+        <button class="box btn btn-style" value="." onclick="calculate(this.value)">.</button>
+        <button class="box btn btn-style" value="=" onclick="result()">=</button>
+        <button class="box btn btn-style" value="+" onclick="calculate(this.value)">+</button>
+        
+    </div>
+</body>
+</html>
